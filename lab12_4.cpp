@@ -33,9 +33,9 @@ int main(){
 	return 0;
 }
 
-template <typename currentType>
-void mySwap(currentType &a, currentType &b){
-	currentType temp = a;
+template <typename T>
+void mySwap(T &a, T &b){
+	T temp = a;
 	a = b;
 	b = temp;
 }
